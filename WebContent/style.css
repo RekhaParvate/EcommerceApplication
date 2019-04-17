@@ -1,0 +1,179 @@
+@charset "ISO-8859-1";
+/*.div1
+{
+		border:1px solid gray;
+		width:1000px;
+		height:800px;
+		padding:10px;
+}*/
+/*input
+{
+		width:500px;
+}*/
+a{
+	color:red;
+}
+
+.in{
+	width:400px;
+	height:25px;
+}
+button
+{
+	width:400px;
+	height:30px;
+	border-color:red;
+	background-color:red;
+	color:white;
+}
+button:hover
+{
+	background-color:white;
+	border-color:red;
+	color:red
+}
+div.relative{
+	width:400px;
+	height:600px;
+	display:inline-block;
+	padding:20px;
+	margin:10px;
+	border:2px solid gray;
+
+}
+.relative:hover{
+		border:2px solid red;
+
+}
+button.btn1
+{
+	width:200px;
+	height:40px;
+	background-color:gray;
+	color:white;
+}
+div.pdp
+{
+	display:inline-block;
+	padding:10px;
+	margin:20px;
+	height:600px;
+	width:1500px;
+}
+
+button.btn2
+{
+	width:200px;
+	height:40px;
+	background-color:green;
+	color:white;
+	
+}
+.loginpage img
+{
+	height:350px;
+	width:700px;
+	padding:10px;
+	margin:10px;
+}
+#box1
+{
+	width:20px;
+	height:20px;
+	background-color:black;
+
+}
+#box2
+{
+	width:20px;
+	height:20px;
+	background-color:white;
+}
+#box3
+{
+	width:20px;
+	height:20px;
+	background-color:blue;
+}
+#box4
+{
+	width:20px;
+	height:20px;
+	background-color:pink;
+}
+#box5
+{
+	width:20px;
+	height:20px;
+	background-color:red;
+}
+#box1:hover{
+	border:2px solid black;
+		box-shadow:0 4ox 10px rgba(0,0,0,0.5);
+}
+#box2:hover{
+	border:2px solid black;
+		box-shadow:0 4ox 10px rgba(0,0,0,0.5);
+
+}
+#box3:hover{
+	border:2px solid black;
+		box-shadow:0 4ox 10px rgba(0,0,0,0.5);
+
+}
+#box4:hover{
+	border:2px solid black;
+		box-shadow:0 4ox 10px rgba(0,0,0,0.5);
+
+}
+#box5:hover{
+	border:2px solid black;
+		box-shadow:0 4ox 10px rgba(0,0,0,0.5);
+
+}
+#boxdiv
+{
+	position: absolute;
+	top:30%;
+	center:16px;
+}
+.pdp1 img{
+	width:350px;
+	height:350px;
+}
+.pdp2 img{
+	width:350px;
+	height:350px;
+}.pdp3 img{
+	width:350px;
+	height:350px;
+}
+
+table,th,td
+{
+	border:2px solid black;
+}
+table th.th
+{
+	color:red;
+	font-size:20px;
+}
+
+table,th,td
+{
+	width:600px;
+	
+}
+table,td
+{
+	color:green;
+	height:300px;
+	font-size: 20px;
+}
+.ach
+{
+	text-align:right;
+	font-weight: bold;
+	font-size: 20px;
+}
+

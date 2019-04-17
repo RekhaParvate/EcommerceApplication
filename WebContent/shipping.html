@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shipping page</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="ShippingFormValidation.js"></script>
+				<script type="text/javascript"></script>
+		<link href="style2.css" rel="stylesheet" type="text/css">
+
+			
+	</head>
+	<body class="shippingform">
+	<form action="ShippingFormConnection.jsp" method="get" class="form2">
+	
+		<div class="ach">
+			<a href="login.html">Logout</a>
+		</div>
+		
+		<div class="div1">
+		<h3>Please enter your shipping address.</h3>
+		<hr>
+		<label for="email">* Email ?</label><br>
+		<input type="email" name="email" id="email" class="in">
+		<p id="erremail"></p><br><br>
+		
+
+		<input type="checkbox">Create an account to save time on your next checkout.
+		<a href="www.google.com">Learn more</a><br><br>
+		
+		<label for="fname">* First Name</label><br>
+		<input type="text" name="fname" id="fname" class="in">
+		<p id="errfname"></p><br><br>
+
+
+		
+		<label for="lname">* Last Name</label><br>
+		<input type="text" name="lname" id="lname" class="in">
+		<p id="errlname"></p><br><br>
+
+		
+		<label for="addr1">* Address Line 1</label><br>
+		<input type="text" name="addr1" id="addr1" class="in">
+		<p id="erraddr"></p><br><br>
+
+
+		
+		<label for="addr2">Address line 2 (Apt,Floor,State,etc)</label><br>
+		<input type="text" name="addr2" id="addr2" class="in"><br><br>
+
+
+		
+		<label for="city">* City</label><br>
+		<input type="text" name="city" id="city" class="in">
+		<p id="errcity"></p><br><br>
+
+		
+
+		
+		<label for="state">* State</label><br>
+		<select id="state" class="in" name="state">
+			<option value="state">state</option>
+			<option value="andhrapradesh">Andhra Pradesh</option>
+			<option value="assam">Assam</option>
+			<option value="bihar">Bihar</option>
+			<option value="goa">Goa</option>
+			<option value="gujarat">Gujarat</option>
+			<option value="karnataka">Karnataka</option>
+			<option value="kerala">Kerala</option>
+			<option value="maharashtra">Maharashtra</option>
+		</select>
+		<p id="errstate"></p><br><br>
+
+		
+		<label for="postalcode">* Postal Code</label><br>
+		<input type="text" name="postalcode" id="postalcode" class="in">
+		<p id="errpcode"></p><br><br>
+
+		
+		<label for="phoneno">* Phone Number</label><br>
+		<input type="text" name="phoneno" id="phoneno" class="in">
+		<p id="errpno"></p><br><br>
+		<hr>
+		<!--<button onclick="return validate()">CONTINUE</button>-->
+		<button id="btn2" onclick="return validateShippingForm()">CONTINUE</button>
+	</div>
+	</form>
+	</body>
+</html>

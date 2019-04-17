@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+body.loginpage .form1
+{
+	background-image:url('img6.jpg');
+	background-repeat: no-repeat;	
+	background-size: cover;
+	border:2px solid black;
+	padding:10px;
+	margin:20px;
+}
+
+body.submitpage{
+				background-image:url('bg3.jpg');
+				 background-repeat: no-repeat;	
+				background-size: cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+}
+body.shippingform .form2
+			{
+				background-image:url("bg1.jpg");
+				 background-repeat: no-repeat;	
+				background-size: cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+			}
+body.plp
+			{
+				background-image:url("img6.jpg");
+				background-repeat: no-repeat;	
+				background-size: cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+			}
+			
+body.pdp1 .pdp11
+			{
+				background-image:url("bg1.jpg");
+				background-repeat: no-repeat;	
+				background-size:cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+			}
+body.pdp2 .pdp22
+			{
+				background-image:url("bg1.jpg");
+				background-repeat: no-repeat;	
+				background-size:cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+			}	
+body.pdp3 .pdp33
+			{
+				background-image:url("bg1.jpg");
+				 background-repeat: no-repeat;	
+				background-size: cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+			}			
+.detail
+			{
+				position: absolute;
+				top:30%;
+				right:16px;
+				
+			}
+			
+body.registerpage .form3
+			{
+				background-image:url("img8.jpg");
+				background-repeat: no-repeat;	
+				background-size: cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+			}
+			
+body.registerpage .form3
+{
+	height:700px;
+}
+body.jspform .jspform1
+		{
+				background-image:url("img9.jpg");
+				background-repeat: no-repeat;	
+				background-size: cover;
+				border:2px solid black;
+				padding:10px;
+				margin:20px;
+		}
+body.jspform .jspform1
+		{
+			height:600px;
+		}

@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Login Page</title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<link href="style2.css" rel="stylesheet" type="text/css">
+		<script src="jquery.js" type="text/javascript"></script>
+		<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+		<script type="text/javascript"></script>
+		<script type="text/javascript" src="LoginValidation.js"></script>
+			
+	</head>
+	<body class="loginpage">
+		<center>
+		<form action="LoginPageValidation.jsp" id="form1" class="form1" >
+			<h1>LOGIN PAGE</h1><br><br>
+
+			<img src="img4.jpg">
+			<div class="div2">
+				<p id="err"></p>
+				<b><label for="email" >Email Address</label></b><br>
+				<input type="text" name="email" id="email" class="in">
+				<p id="emailerr"></p><br>
+				
+				<b><label for="password" >Password</label></b><br>
+				<input type="password" name="pass" id="pass" class="in">
+				<p id="passerr"></p><br><br>
+
+				<button id="btn1" onclick="return validateLoginForm()">SIGN IN</button><br><br>
+			<div>
+			
+		</form>
+		<form action="Register.html">
+		<button id="btn2">REGISTER</button>
+		</form>
+		</center>
+	</body>
+</html>
